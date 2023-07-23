@@ -1,0 +1,106 @@
+.login-form {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 20%;
+    width: 30%;
+    box-shadow: #ff0000;
+    
+    
+}
+.sec {
+    position: relative;
+    background-color: #c0dce4;
+    box-shadow:10px 10px 5px 5px  rgb(116, 110, 110);
+    border-radius: 3%;
+}
+
+.pw_un {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    text-align: center;
+}
+.btn button {
+    color:black;
+    background: orange;
+    cursor:grab;
+}
+.ca {
+    text-align: center;
+}
+.da{
+    text-align: center;
+    
+}
+.navbar {
+    display: flex;
+    margin-left: 200%;
+    text-decoration: none;
+    position: relative;
+
+    
+  }
+.navbar ul li a {
+    text-decoration: none;
+    padding: 3px 20px;
+    border-radius: 3px;
+    display: block;
+    
+}
+.navbar ul li{
+    list-style: none;
+}
+.navbar ul li a:hover {
+    color: aquamarine;
+    background: #000;
+}
+.navbar ul {
+    display: flex;
+}
+#courses ul{
+    display: none;
+    position: relative;
+    background-color: rgb(134, 208, 225);
+    border-radius: 15px;
+    min-width: 100%;
+}
+
+#courses:hover ul {
+    display: block;
+    position: absolute;
+}
+.nav {
+    display: flex;
+    position: relative;
+    align-items: center;
+    background: rgb(134, 208, 225);
+    
+    
+}
+body {
+    background-image: url('it.jpg');
+    background-repeat:no-repeat;
+
+    background-size: 100%;
+    
+    
+  }
+#drop1 {
+   padding: 10px;
+}
+/* #drop1:hover ul{
+    top: 100%;
+    left: 0%;
+    position: absolute;
+    display: block;
+    background-color: rgb(134, 208, 225);
+} */
+
+
